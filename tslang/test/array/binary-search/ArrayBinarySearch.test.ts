@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import { arrayBinarySearch } from "../../src/array-binary-search/ArrayBinarySearch";
+import { arrayBinarySearch } from "../../../src/array/binary-search/ArrayBinarySearch";
 
 test("test arrayBinarySearch", () => {
 	expect(arrayBinarySearch([1, 2, 3, 4, 5, 9, 12], 8)).toBe(-1);

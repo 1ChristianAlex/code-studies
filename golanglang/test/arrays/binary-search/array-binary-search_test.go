@@ -3,7 +3,7 @@ package binarysearch_test
 import (
 	"testing"
 
-	binarysearch "github.com/1ChristianAlex/code-studies/internal/binary-search"
+	binarysearch "github.com/1ChristianAlex/code-studies/internal/arrays/binary-search"
 )
 
 func TestArrayBinarySearch(t *testing.T) {
