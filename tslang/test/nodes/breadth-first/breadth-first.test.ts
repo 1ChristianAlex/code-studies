@@ -1,6 +1,6 @@
 import { describe, expect, test } from "bun:test";
-import { NodeBreadth } from "../../../src/array/nodes/breadth-first/breadth-first";
-import { ListNode } from "../../../src/array/nodes/node-item";
+import { NodeBreadth } from "../../../src/nodes/breadth-first/breadth-first";
+import { ListNode } from "../../../src/nodes/node-item";
 
 describe("test breadth-first", () => {
 	test("teste with node one ", () => {
