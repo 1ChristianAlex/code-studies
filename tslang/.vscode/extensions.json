@@ -1,3 +1,4 @@
 {
-	"unwantedRecommendations": ["firsttris.vscode-jest-runner"]
+	"unwantedRecommendations": ["firsttris.vscode-jest-runner"],
+	"recommendations": ["biomejs.biome", "oven.bun-vscode"]
 }
