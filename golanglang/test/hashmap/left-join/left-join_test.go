@@ -25,14 +25,16 @@ func TestDoLeftJoin(t *testing.T) {
 	}
 
 	hashMapResult := [][]string{
-		{"wrath", "anger", "delight"},
 		{"diligent", "employed", "idle"},
 		{"font", "enamored", "averse"},
 		{"guide", "usher", "follow"},
 		{"outfit", "garb", ""},
+		{"wrath", "anger", "delight"},
 	}
 
-	if !reflect.DeepEqual(leftjoin.DoLeftJoin(hashMapOne, hashMapTwo), hashMapResult) {
+	joinResult := leftjoin.DoLeftJoin(hashMapOne, hashMapTwo)
+
+	if !reflect.DeepEqual(joinResult, hashMapResult) {
 		t.Fatalf("Test fail")
 	}
 }
